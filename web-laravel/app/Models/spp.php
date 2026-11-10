@@ -7,7 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 class spp extends Model
 {
     protected $fillable = [
-        'id'
-        
+        'id_spp',
+        'tahun',
+        'nominal',
+        'keterangan',
+        'created_at',
+        'updated_at'
+
     ];
 }

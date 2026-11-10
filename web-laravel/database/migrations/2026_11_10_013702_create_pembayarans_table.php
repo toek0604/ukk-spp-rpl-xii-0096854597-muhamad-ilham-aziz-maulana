@@ -12,7 +12,12 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('pembayarans', function (Blueprint $table) {
-            $table->id();
+            $table->id('id_pembayaran')-> INT();
+            $table->id('id_petugas')-> VARCHAR(30);
+            $table->string('bulan_bayar')-> VARCHAR(15);
+            $table->string('tahun_bayar')-> VARCHAR(4);
+            $table->id('id_spp')-> INT()-> NOTNULL();
+            $table->id('jumlah_bayar')-> INT()-> NOTNULL();
             $table->timestamps();
         });
     }

@@ -12,7 +12,13 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('siswas', function (Blueprint $table) {
-            $table->id();
+            $table->id('nisn')-> CHAR(10);
+            $table->id('nis')-> INT(8)-> NOTNULL();
+            $table->string('nama')-> VARCHAR(50);
+            $table->string('id_kelas')-> INT()-> NOTNULL();
+            $table->string('alamat')-> TEXT();
+            $table->string('no_telp')-> VARCHAR(15);
+            $table->id('id_spp')-> INT()-> NOTNULL();
             $table->timestamps();
         });
     }

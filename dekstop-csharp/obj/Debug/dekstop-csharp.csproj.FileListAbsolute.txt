@@ -1,0 +1,4 @@
+D:\ukk-spp-rpl-xii-0096854597-muhamad-ilham-aziz-maulana\dekstop-csharp\obj\Debug\dekstop-csharp.csproj.AssemblyReference.cache
+D:\ukk-spp-rpl-xii-0096854597-muhamad-ilham-aziz-maulana\dekstop-csharp\obj\Debug\dekstop_csharp.Properties.Resources.resources
+D:\ukk-spp-rpl-xii-0096854597-muhamad-ilham-aziz-maulana\dekstop-csharp\obj\Debug\dekstop-csharp.csproj.GenerateResource.cache
+D:\ukk-spp-rpl-xii-0096854597-muhamad-ilham-aziz-maulana\dekstop-csharp\obj\Debug\dekstop-csharp.csproj.CoreCompileInputs.cache
